@@ -24,6 +24,9 @@ function avisoServidor(){
 	console.log("Servidor levantado");
 }
 
+//funcion: home
+//def: envia el home.html
+//by Tade0G
 function home(req,res){
 	res.sendFile(path.resolve(__dirname,"./views/home.html"));
 }
