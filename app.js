@@ -10,6 +10,9 @@ app.use(express.static(path.resolve(__dirname,"./public")));
 //configuramos servidor
 app.listen(3000,avisoServidor);
 
+//muestra de paginas
+app.get("/",home);
+
 
 
 //funciones 
@@ -19,4 +22,8 @@ app.listen(3000,avisoServidor);
 //by Tade0G
 function avisoServidor(){
 	console.log("Servidor levantado");
+}
+
+function home(req,res){
+	res.sendFile(path.resolve(__dirname,"./views/home.html"));
 }
