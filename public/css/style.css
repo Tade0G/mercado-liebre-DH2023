@@ -1,0 +1,24 @@
+.header{
+	background-color: #EAC926;
+	padding-bottom:2%;
+}
+.header__logo{
+	width:30%;
+	height:20%;
+}
+.header__texto{
+	text-align:center;
+}
+.item__link{
+	text-decoration:none;
+	color:black;
+}
+.burger-menu{
+	text-align:center;
+}
+.burger-menu__icono{
+	background-color:#1259c3;
+	padding:1%;
+	color:white;
+	border-radius:10%;
+}
