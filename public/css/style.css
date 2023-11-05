@@ -37,6 +37,10 @@
 .ofertas{
 	font-size:24px;
 }
+.producto__img{
+	width:50%;
+	height:50%;
+}
 .icono-envio{
 	border:solid 2px #39b54a;
 	border-radius:100%;
@@ -56,4 +60,17 @@
 }
 .producto__nombre{
 	font-size:16px;
+}
+
+
+.footer{
+	text-align:center;
+}
+.mensaje__icono{
+	font-size:2em;
+	margin-bottom:10px;
+	color: #1259c3;
+}
+.mensaje__copyrigth{
+	color:: #666;
 }
