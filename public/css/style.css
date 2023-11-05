@@ -22,3 +22,38 @@
 	color:white;
 	border-radius:10%;
 }
+
+
+.main{
+	background-color: #ebebeb;
+	width:90vw;
+}
+.banner{
+	width:90vw;
+}
+.ultima-visita{
+	font-size:24px;
+}
+.ofertas{
+	font-size:24px;
+}
+.icono-envio{
+	border:solid 2px #39b54a;
+	border-radius:100%;
+	width:50px;
+	height:50px;
+}
+.icono-envio__icono{
+	color:#39b54a;
+	font-size:18px;
+	margin:7px;
+}
+.producto-descripcion__precio{
+	font-size:18px;
+}
+.producto-descripcion__descuento{
+	font-size:16px;
+}
+.producto__nombre{
+	font-size:16px;
+}
