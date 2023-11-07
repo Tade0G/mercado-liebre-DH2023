@@ -1,3 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+	font-family:"Roboto";
+	background-color:#ebebeb;
+}
+
+
 .header{
 	background-color: #EAC926;
 	padding-bottom:2%;
@@ -8,6 +18,9 @@
 }
 .header__texto{
 	text-align:center;
+}
+.nav{
+	display:none;
 }
 .item__link{
 	text-decoration:none;
@@ -25,41 +38,67 @@
 
 
 .main{
-	background-color: #ebebeb;
-	width:90vw;
+	text-align:center;
+	width:90%;
 }
 .banner{
-	width:90vw;
+	width:100vw;
 }
-.ultima-visita{
-	font-size:24px;
+.ultima-vista{
+	margin-left:10%;
 }
 .ofertas{
+	margin-left:10%;
+}
+.ultima-vista__titulo{
+	text-align:left;
 	font-size:24px;
+	color: #666;
+}
+.ofertas__titulo{
+	font-size:24px;
+	text-align:left;
+	margin-left:15px;
+	color:#666;
+}
+.producto{
+	margin: 10px;
+	background-color:white;
 }
 .producto__img{
-	width:50%;
-	height:50%;
+	width:100%;
+}
+.producto-descripcion{
+	border:solid 1px #ebebeb;
+	text-align:left;
 }
 .icono-envio{
 	border:solid 2px #39b54a;
 	border-radius:100%;
 	width:50px;
 	height:50px;
+	margin:15px
 }
 .icono-envio__icono{
 	color:#39b54a;
 	font-size:18px;
-	margin:7px;
+	margin-right:10px;
+	margin-top:3px;
 }
 .producto-descripcion__precio{
 	font-size:18px;
+	margin:15px;
 }
 .producto-descripcion__descuento{
 	font-size:16px;
+	color:#39b54a;
+	margin:15PX;
 }
-.producto__nombre{
+.producto-descripcion__nombre{
 	font-size:16px;
+	color:#666;
+	margin: 15px;
+	display:none;
 }
 
 
@@ -73,4 +112,26 @@
 }
 .mensaje__copyrigth{
 	color:: #666;
+}
+
+@media (min-width:361px){
+	
+	.nav{
+		display:block;
+	}
+	.burger-menu{
+		display:none;
+	}
+	
+	
+	.producto{
+		box-shadow: 0px 0px 10px rgb(100, 100, 100);
+	}
+	.producto-descripcion__nombre{
+		display:block;
+	}
+}
+
+@media (min-width:769px){
+	
 }
