@@ -1,9 +1,37 @@
+/*pagina*/
+*{
+    box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*header*/
+
 .header{
 	padding-bottom:3%;
 }
 
-
+/*main*/
 
 .campo{
-	display:block;
+	margin:2% 5vw;
 }
+.campo__descripcion{
+	font-weight:900;
+	font-size:1.1em;
+}
+.campo__input{
+	width:90vw;
+	height:30px;
+}
+.campo__input--foto{
+	margin:3%;
+}
+.opcion{
+	margin:0.4% 1%;
+}
+.boton{
+	margin:2% 0px;
+}
+
+/*footer*/
