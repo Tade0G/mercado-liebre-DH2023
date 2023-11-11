@@ -13,7 +13,7 @@ app.listen(3000,avisoServidor);
 //muestra de paginas
 app.get("/",home);
 app.get("/register",register);
-
+app.get("/login",login);
 
 
 //funciones 
@@ -37,4 +37,11 @@ function home(req,res){
 //by Tade0G
 function register(req,res){
 	res.sendFile(path.resolve(__dirname,"./views/register.html"));
+}
+
+//funcion: login
+//def: envia el login.html
+//by Tade0G
+function register(req,res){
+	res.sendFile(path.resolve(__dirname,"./views/login.html"));
 }
