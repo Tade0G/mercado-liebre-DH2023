@@ -12,6 +12,7 @@ app.listen(3000,avisoServidor);
 
 //muestra de paginas
 app.get("/",home);
+app.get("/register",register);
 
 
 
@@ -29,4 +30,11 @@ function avisoServidor(){
 //by Tade0G
 function home(req,res){
 	res.sendFile(path.resolve(__dirname,"./views/home.html"));
+}
+
+//funcion: register
+//def: envia el register.html
+//by Tade0G
+function register(req,res){
+	res.sendFile(path.resolve(__dirname,"./views/register.html"));
 }
