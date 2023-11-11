@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>Mercado Liebre</title>
+		<script src="https://kit.fontawesome.com/d964575e02.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<link href="./css/normalize.css" rel="stylesheet">
+		<link href="./css/styles-default.css" rel="stylesheet">
+		<link href="./css/styles-register.css" rel="stylesheet">
+		
+		
+	</head>
+	
+	<body>
+		
+		<header class="header">
+			
+			<img src="./img/logo-mercado-liebre.svg" alt="logo mercado liebre" class="header__logo">
+			
+		</header>
+		
+		<main class="main">
+			
+			<form action="./" class="formulario">
+				
+				<p class="campo">
+					<label for="nombre-y-apellido:">Nombre y Apellido:</label>
+					<input type="text" name="nombre-y-apellido" id="nombre-y-apellido">
+				</p>
+				
+				<p class="campo">
+					<label for="nombre-de-usuario:">Nombre de Usuari@:</label>
+					<input type="text" name="nombre-de-usuario" id="nombre-de-usuario">
+				</p>
+				
+				<p class="campo">
+					<label for="email:">Correo Electonico:</label>
+					<input type="email" name="email" id="email">
+				</p>
+				
+				<p class="campo">
+					<label for="fecha-n:">Fecha de Nacimiento:</label>
+					<input type="date" name="fecha-n" id="fecha-n">
+				</p>
+				
+				<p class="campo">
+					<label for="domicilio:">Domicilio:</label>
+					<input type="text" name="domicilio" id="domicilio">
+				</p>
+				
+				<p class="campo">
+					<label>Perfil de Usuario:</label>
+					<input type="radio" name="perfil-de-usuario" value="venta">venta</input>
+					<input type="radio" name="perfil-de-usuario" value="compra">compra</input>
+				</p>
+				
+				<p class="campo">
+					<label>Preferencias:</label>
+					<input type="checkbox" name="freferencia" value="electro">electro</input>
+					<input type="checkbox" name="freferencia" value="moda">moda</input>
+					<input type="checkbox" name="freferencia" value="hogar">hogar</input>
+					<input type="checkbox" name="freferencia" value="jugueteria">jugueteria</input>
+					<input type="checkbox" name="freferencia" value="vida-sana">vida sana</input>
+				</p>
+				
+				<p class="campo">
+					<label>Foto de Perfil</label>
+					<input type="file" name="foto-de-perfil" accept=".jpg">
+				</p>
+				
+				<p class="campo">
+					<label for="contraseña">Cree Una Contraseña</label>
+					<input type="password" name="contraseña" id="contraseña">
+				</p>
+				
+				<p class="campo">
+					<label for="confirmar-contraseña"> Confirme Su Contraseña</label>
+					<input type="password" name=" confirmar-contraseña" id="confirmar-contraseña">
+				</p>
+				
+				<button type="submit">Enviar</button>
+				<button type="reset">Borrar datos</button>
+				
+			</form>
+			
+		</main>
+		
+		<footer class="footer">
+			
+			<div  class="mensaje">
+				<i class="fa-solid fa-credit-card mensaje__icono"></i>
+				<h3 class="mensaje__titulo">Pagá con tarjeta o en efectivo</h3>
+				<p class="mensaje__descripcion">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+				
+				<i class="fa-solid fa-gift mensaje__icono"></i>
+				<h3 class="mensaje__titulo">Envío gratis desde $ 2.500</h3>
+				<p class="mensaje__descripcion">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+				
+				<i class="fa-solid fa-user-shield mensaje__icono"></i>
+				<h3 class="mensaje__titulo">Seguridad, de principio a fin</h3>
+				<p class="mensaje__descripcion">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+				
+				<h5 class="mensaje__copyrigth">Copyright © 1999-2020 MercadoLiebre S.R.L.</h5>
+			</div>
+			
+		</footer>
+		
+	</body>
+	
+</html>
