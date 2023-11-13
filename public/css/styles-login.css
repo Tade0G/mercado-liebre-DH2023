@@ -4,3 +4,48 @@
 	margin: 0px;
 	padding: 0px;
 }
+
+/*header*/
+.header{
+	justify-content:center;
+}
+
+/*body*/
+
+.main{
+	text-align:center;
+}
+.campo{
+	margin:5% 0px;
+}
+.campo__descripcion{
+	font-size:1.3em;
+	font-weight:900;
+}
+.campo__input{
+	width:80vw;
+	height:30px;
+}
+.boton{
+	width:80vw;
+	height:45px;
+	background-color:#1259c3;
+	color:white;
+	font-weight:900;
+	
+}
+
+@media (min-width:769px){
+	
+	
+	
+}
+
+
+@media (min-width:1024px){
+	
+	.boton:hover{
+		background-color:#0022AA;
+	}
+	
+}

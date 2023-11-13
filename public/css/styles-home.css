@@ -113,5 +113,29 @@
 @media (min-width:1024px){
 	.producto{
 		width:21%;
+		position:relative;
 	}
+	.icono-envio{
+		transition:transform, 0.8s;
+	}
+	.precio{
+		padding-bottom:15%;
+	}
+	.producto-descripcion__nombre{
+		display:none;
+		position:absolute;
+		bottom:-3%;
+		left:-5%;
+	}
+	.producto:hover .producto-descripcion__nombre{
+		display:block;
+		width:100%;
+	}
+	.producto:hover{
+		box-shadow: 5px 5px 15px rgb(50, 50, 50);
+	}
+	.producto:hover .icono-envio{
+	transform: rotateZ(-90deg);
+	}
+	
 }

@@ -18,7 +18,9 @@
 		
 		<header class="header">
 			
-			<img src="./img/logo-mercado-liebre.svg" alt="logo mercado liebre" class="header__logo">
+			<a href="./" class="link-logo">
+				<img src="./img/logo-mercado-liebre.svg" alt="logo mercado liebre" class="link-logo__img">
+			</a>
 			
 		</header>
 		
@@ -26,7 +28,19 @@
 			
 			<form action="./" class="formulario">
 				
-				
+				<div class="campo">
+					<label for="usuario" class="campo__descripcion">Usuario</label>
+					<br>
+					<input type="text" name="usuario" id="usuario" class="campo__input">
+				</div>
+				<div class="campo">
+					<label for="contraseña" class="campo__descripcion">Contraseña</label>
+					<br>
+					<input type="password" name="contraseña" id="contraseña" class="campo__input">
+				</div>
+				<div class="campo">
+					<button type="submit" class="boton">enviar</button>
+				</div>
 				
 			</form>
 			
@@ -34,22 +48,26 @@
 		
 		<footer class="footer">
 			
-			<div  class="mensaje">
+			<section class="mensaje">
 				<i class="fa-solid fa-credit-card mensaje__icono"></i>
 				<h3 class="mensaje__titulo">Pagá con tarjeta o en efectivo</h3>
 				<p class="mensaje__descripcion">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
-				
+			</section>
+			
+			<section class="mensaje">
 				<i class="fa-solid fa-gift mensaje__icono"></i>
 				<h3 class="mensaje__titulo">Envío gratis desde $ 2.500</h3>
 				<p class="mensaje__descripcion">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
-				
+			</section>
+			
+			<section class="mensaje">
 				<i class="fa-solid fa-user-shield mensaje__icono"></i>
 				<h3 class="mensaje__titulo">Seguridad, de principio a fin</h3>
 				<p class="mensaje__descripcion">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+			</section>
 				
-				<h5 class="mensaje__copyrigth">Copyright © 1999-2020 MercadoLiebre S.R.L.</h5>
-			</div>
-			
+				<h5 class="footer__copy">Copyright © 1999-2020 MercadoLiebre S.R.L.</h5>
+				
 		</footer>
 		
 	</body>

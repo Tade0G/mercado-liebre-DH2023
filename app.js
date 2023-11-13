@@ -42,6 +42,6 @@ function register(req,res){
 //funcion: login
 //def: envia el login.html
 //by Tade0G
-function register(req,res){
+function login(req,res){
 	res.sendFile(path.resolve(__dirname,"./views/login.html"));
 }
