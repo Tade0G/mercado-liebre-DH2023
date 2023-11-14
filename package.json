@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-	"start": "node app.js",
+    "start": "node app.js",
     "test": "nodemon app.js"
   },
   "author": "Tad0G",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
   }
 }

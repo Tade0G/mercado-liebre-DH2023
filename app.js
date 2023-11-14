@@ -4,13 +4,13 @@ const app = express();
 //requerimos path
 const path = require("path");
 //***************
-const port =process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 //definimos lugar de archvos estaticos
 app.use(express.static(path.resolve(__dirname,"./public")));
 
 //configuramos servidor
-app.listen(3000,avisoServidor);
+/*app.listen(3000,avisoServidor);*/
 app.listen(port,avisoServidor);
 
 //muestra de paginas
