@@ -36,3 +36,29 @@
 }
 
 /*footer*/
+
+
+@media (min-width:769px){
+	
+	.formulario{
+		width:100%;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:center;
+	}
+	.campo{
+		width:70%;
+	}
+	.campo__input{
+		width:90%;
+	}
+	
+}
+
+@media (min-width:1024px){
+	
+	.campo{
+		width:50%;
+		margin:1% 5vw;
+	}
+}
