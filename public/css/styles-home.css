@@ -6,22 +6,20 @@
 }
 
 /*main*/
-
+.banner{
+	width:100vw;
+	margin-top:2%;
+}
 .main{
 	text-align:center;
 	width:90vw;
 }
-.banner{
-	width:100vw;
-}
 .ultima-visita{
-	margin-left:10%;
 	display:flex;
 	flex-direction:column;
 	flex-wrap:wrap;
 }
 .ofertas{
-	margin-left:10%;
 	display:flex;
 	flex-direction:column;
 	flex-wrap:wrap;
